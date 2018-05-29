@@ -220,13 +220,34 @@ padding: 0.2em;
 
 .sq-overflow-scroll{overflow: scroll;}
 
+/* Product details */
+.sq-p-details{
+	grid-area: 4 / 2 / span end / span 7;
+	margin-top: 0.5em;
+}
+.sq-p-bildepanel{
+	grid-area: 1 / 2 / span 3 / span 3;
+	margin-right: 0.5em;
+	margin-top: 0.5em;
+}
+.sq-p-logpanel{
+	grid-area: 1 / 5 / span 3 /span 4;
+	margin-top: 0.5em;
+}
+.sq-p-align-end{
+	margin-top: auto;
+	align-content: end;
+}
+.sq-p-price-card{
+	display: flex;
+	background-color: var(--background);
+}
 /* Bjørn og Thomas Shoppingcart */
 .sq-main-topp{
 	grid-area: 1 / 1 / span 1 / span end;}
 .sq-main-middle{grid-area: 2 / 1 / span 2 / span end;
 ; }
 .sq-main-bot{grid-area:5 / 1 / span 1 / span end;}
-
 .sq-width-4{width:4em;}
 .sq-height-2{height:2em;}
 .sq-align-items-center{align-items:center;}

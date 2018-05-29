@@ -26,6 +26,7 @@
           <!--the - button-->
           <div class="sq-align-items-center sq-flex">
             <button onclick="minus()">
+            <button onclick="addItem()">
               <svg id="i-minus" viewBox="0 0 32 32" width="23" height="22.5" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                 <path d="M2 16 L30 16"/>
               </svg>
@@ -38,6 +39,11 @@
           <!--the + button-->
           <div class="sq-align-items-center sq-flex">
             <button id="plus" onclick="plus()">
+            <input class="sq-width-4 sq-border-1" type="number" id="theNumber">
+          </div>
+          <!--the + button-->
+          <div class="sq-align-items-center sq-flex">
+            <button onclick="substractItem()">
               <svg id="i-plus" viewBox="0 0 32 32" width="23" height="22.5" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                 <path d= "M16 2 L16 30 M2 16 L30 16"/>
               </svg>
@@ -48,9 +54,7 @@
         <div class="sq-align-items-center sq-flex sq-air-x-1 max-width-14"> Total Pris </div>
         <div class="sq-align-items-center sq-flex sq-ml-9"> <button class="sq-height-2 sq-align-items-center">Delete</button> </div>
       </div>
-
       <!--End of Row 1-->
-
       <!--Start of Row 2-->
 	  <div class="sq-flex sq-mt-2 sq-flex-column">
 		<!--Row 1-->
