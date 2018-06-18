@@ -41,7 +41,7 @@
     <div class="sq-air-y-1">
       <table border="2" class=" sq-tables sq-custom-table-position sq-white sq-table-hover sq-table-row-padding-2">
         <thead><strong>Fakturaoversikt</strong></thead>
-        <tr>
+        <tr class="sq-collapsible">
           <th>Faktura Nr:</th>
           <th>Forfalls dato:</th>
           <th>Utsendelses dato:</th>
@@ -52,14 +52,14 @@
           <th>Betalt:</th>
         </tr>
         <tr>
-          <td>1</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <td class="sq-collapsible-content">1</td>
+          <td class="sq-collapsible-content"></td>
+          <td class="sq-collapsible-content"></td>
+          <td class="sq-collapsible-content"></td>
+          <td class="sq-collapsible-content"></td>
+          <td class="sq-collapsible-content"></td>
+          <td class="sq-collapsible-content"></td>
+          <td class="sq-collapsible-content"></td>
         </tr>
         <tr>
           <td>2</td>
